@@ -1,5 +1,8 @@
 # Line-Segment-Detector-using-OpenCV
 
+![Result](images/result.png)
+
+
 ## Principle: 
 **LSD** is a linear-time line segment algorithm giving subpixel accurate results. It detects locally straight contours on images. The algorithm starts by computing the ***level-line angle*** at each pixel to produce a ***level line field***. This field is then segmented into connected region of pixels that share the same level-line angle upto a certain degree of tolerance (τ), called ***line-support regions***. 
 The older algorithms like Hough transform which uses Canny filter have a lot of false detections. Ignoring the orientation of the edge points,
